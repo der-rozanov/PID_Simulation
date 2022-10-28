@@ -19,6 +19,10 @@ The physical model of the system is described here, the controlling effect is fo
     acc = Force / mass
     currentspeed += acc * dt
     currentpoint += currentspeed * dt + acc * pow(dt, 2) / 2
+
+The algorithm calculates the reaction of the system for the timelapse time with a frequency of 1/dt 
+and outputs data to the graph. Blue is the reaction of the system, Orange is the control action.
+
     
 For example, replace gravity with the force of friction against the air. 
 The expression for calculating air resistance is very approximate and unsuitable for real calculations
