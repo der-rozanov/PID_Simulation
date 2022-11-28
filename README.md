@@ -1,3 +1,5 @@
+![Screenshot](Screenshot.png)
+
 # PID_Simulation
 A simulator of the PID controller for a system moving vertically with a free fall acceleration of 9.81. 
 A force is applied to the system, this force is regulated by the PID controller. In the described example:
